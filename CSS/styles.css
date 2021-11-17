@@ -1,66 +1,39 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-body{
-    overflow: hidden;
-}
-
-/* Nav Bar */
-
-nav{
-    margin-left:200px;
-    padding-top: 25px;
-    display: flex;
-}
-
-nav a{
-    text-decoration: none;
+body {
+	overflow: hidden;
 }
 
 
-
-.menu ul li{
-    display: inline-block;
-    width: 100px;
-    
-    
-    
-
+.main {
+	position: relative;
+	bottom: 100px;
 }
 
-
-
-.main{
-    position: relative;
-    bottom: 150px;
+.hero-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 250px;
 }
 
-
-.hero-image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 250px;
+.nav {
+	position: relative;
+	bottom: 200px;
+	margin-left: 775px;
 }
 
-.social{
-    position: relative;
-    bottom: 200px;
-    margin-left: 815px;
-
+.nav a {
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
 }
 
-.social a{
-    text-decoration: none;
-    font-size: 35px;
-    color: black;
-    
-}
-
-.social li{
-    display: inline-block;
-    width: 100px;
+.nav-item{
+	display: inline-block;
+	width: 100px;
 }
