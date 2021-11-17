@@ -9,6 +9,11 @@ body {
 }
 
 
+.menu ul li {
+	display: inline-block;
+	width: 100px;
+}
+
 .main {
 	position: relative;
 	bottom: 100px;
@@ -21,19 +26,30 @@ body {
 	margin: 250px;
 }
 
-.nav {
+
+.social {
 	position: relative;
 	bottom: 200px;
-	margin-left: 775px;
+	margin-left: 750px;
 }
 
-.nav a {
+.social a {
 	text-decoration: none;
 	font-size: 30px;
 	color: black;
 }
 
-.nav-item{
-	display: inline-block;
-	width: 100px;
+.social a:hover{
+	color: #808080;
 }
+
+.social a:active{
+	color: #ff0000;
+}
+
+.social li {
+	display: inline-block;
+	width: 70px;
+}
+
+
