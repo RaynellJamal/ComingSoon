@@ -1,41 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Shippori+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Buenard:wght@400;700&family=Fugaz+One&family=Shippori+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-body {
-	overflow: hidden;
-}
 
 
-.menu ul li {
-	display: inline-block;
-	width: 100px;
-}
 
-.main {
-	position: relative;
-	bottom: 100px;
-}
-
-.hero-image {
+.container{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 250px;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+	padding: 170px;
+}
+
+.text{
+	margin-left: 5px;
+	margin-top: 180px;
+	padding: 5px;
+}
+
+.text h1{
+	font-family: 'Buenard', serif;
+	font-weight: 700;
+	margin-bottom: 15px;
+	
+
+}
+
+.text p{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 20px;
+	letter-spacing: .5px;
 }
 
 
+/* Social icons */
 .social {
 	position: relative;
-	bottom: 200px;
-	margin-left: 750px;
+	bottom: 225px;
+	margin-left: 950px;
 }
 
 .social a {
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 22px;
 	color: black;
 }
 
@@ -49,7 +65,7 @@ body {
 
 .social li {
 	display: inline-block;
-	width: 70px;
+	width: 40px;
 }
 
 
